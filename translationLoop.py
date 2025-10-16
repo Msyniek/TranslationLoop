@@ -1,7 +1,6 @@
 import os
 import pdfplumber
 import translators as ts
-from PyPDF2 import PdfReader
 from reportlab.pdfgen import canvas
 from tkinter.filedialog import askopenfilename
 from reportlab.lib.pagesizes import letter
@@ -62,3 +61,4 @@ translated_chunks = [ts.translate_text(chunk, to_language=user_language, transla
 save_text_to_pdf(translated_chunks, output_pdf_path)
 
 print(f"Translated PDF saved to {output_pdf_path}")
+
