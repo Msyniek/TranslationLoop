@@ -64,4 +64,4 @@ MIT
 
 - [pdfplumber](https://github.com/jsvine/pdfplumber)
 - [translators](https://github.com/UlionTse/translators)
-- [reportlab](https://github.com/Helios42/ReportLab)
+- [reportlab](https://pypi.org/project/reportlab/)
